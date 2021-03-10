@@ -53,7 +53,7 @@ typedef struct {
 	ngx_http_complex_value_t	*cvalid;
 } ngx_statsd_stat_t;
 
-typedef struct {
+tpedef struct {
     int	                    off;
     ngx_udp_endpoint_t      *endpoint;
 	ngx_uint_t				sample_rate;
